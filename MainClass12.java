@@ -1,5 +1,5 @@
-//Name:Yogesh Pawar Date:28/08/2017
-class MainClass9
+//Name:Yogesh Pawar Date:29/08/2017
+class MainClass12
 {
 	public static void main(String arg[])
 	{
@@ -17,14 +17,9 @@ class MainClass9
 
 			for(int k=1;k<=stars;k++)
 			{
-				if(k==1||k==stars)
-				{
+				
 					System.out.print("*");
-				}
-				else
-				{
-					System.out.print(" ");
-				}
+				
 			}
 			System.out.println();
 			if(i>=mid)
@@ -46,13 +41,12 @@ class MainClass9
 output:-
 
     *
-   * *
-  *   *
- *     *
-  *   *
-   * *
+   ***
+  *****
+ *******
+  *****
+   ***
     *
-
 
 */
 

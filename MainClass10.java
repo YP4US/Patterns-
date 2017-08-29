@@ -6,7 +6,7 @@ class MainClass10
 		int lines=6;
 		int spaces=0;
 		int stars=5;
-		int mid=(lines/2);
+		int mid=((lines+1)/2);
 
 		for(int i=1;i<=lines;i++)
 		{
@@ -22,15 +22,15 @@ class MainClass10
 			System.out.println();
 
 
-			if(i>=mid)
+			if(i<mid)
 			{
-				stars=stars+2;
-				spaces--;
+				stars=stars-2;
+				spaces++;
 			}
-			else 
+			else if(i>mid)
 			{
-			stars=stars-2;
-			spaces++;
+			stars=stars+2;
+			spaces--;
 			
 			}
 
@@ -44,9 +44,9 @@ output:-
 *****
  ***
   *
+  *
  ***
 *****
-*******
 
 
 */

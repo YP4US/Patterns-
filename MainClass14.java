@@ -1,9 +1,8 @@
-//Name:Yogesh Pawar Date:28/08/2017
-class MainClass9
+class MainClass14
 {
 	public static void main(String arg[])
 	{
-		int lines=7;
+		int lines=9;
 		int stars=1;
 		int spaces=4;
 		int mid=(lines+1)/2;
@@ -19,40 +18,26 @@ class MainClass9
 			{
 				if(k==1||k==stars)
 				{
-					System.out.print("*");
+					System.out.print("*");	
 				}
+
 				else
 				{
 					System.out.print(" ");
 				}
+				
 			}
 			System.out.println();
 			if(i>=mid)
 			{
-				stars=stars-2;
+				stars--;
 				spaces++;
 			}
 			else
-			{			
-			stars=stars+2;
-			spaces--;
-	
+			{
+				stars++;
+				spaces--;
 			}
 		}
 	}
 }
-
-/*
-output:-
-
-    *
-   * *
-  *   *
- *     *
-  *   *
-   * *
-    *
-
-
-*/
-
